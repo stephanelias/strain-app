@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "strain-app-temp",
-    "slug": "strain-app-temp",
+    "name": "strain-app",
+    "slug": "strain-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

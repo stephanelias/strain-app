@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HistoryScreen() {
+export default function AddScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Historique</Text>
-      <Text style={styles.text}>Votre progression et statistiques</Text>
+      <Text style={styles.title}>Ajouter un workout</Text>
+      <Text style={styles.text}>Démarrer une nouvelle séance</Text>
     </View>
   );
 }

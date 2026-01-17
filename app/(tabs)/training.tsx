@@ -4,7 +4,7 @@ export default function TrainingScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Training</Text>
-      <Text style={styles.text}>Your training sessions</Text>
+      <Text style={styles.text}>Vos séances d'entraînement</Text>
     </View>
   );
 }

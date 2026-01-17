@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function ExercisesScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Exercises</Text>
-      <Text style={styles.text}>List of all your exercises</Text>
+      <Text style={styles.title}>Exercices</Text>
+      <Text style={styles.text}>Liste de tous vos exercices</Text>
     </View>
   );
 }

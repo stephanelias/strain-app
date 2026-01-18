@@ -39,6 +39,7 @@ export default function TabsLayout() {
         name="add"
         options={{
           title: '',
+          tabBarAccessibilityLabel: 'Ajouter un workout',
           tabBarIcon: ({ focused }) => (
             <View style={styles.addButton}>
               <PlusIcon size={28} color="#fff" />

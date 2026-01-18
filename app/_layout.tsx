@@ -8,18 +8,22 @@ import {
 import { ActivityIndicator, View } from 'react-native';
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({
+  const [fontsLoaded, fontError] = useFonts({
     Poppins_400Regular,
     Poppins_600SemiBold,
     Poppins_700Bold,
   });
 
-  if (!fontsLoaded) {
+  if (!fontsLoaded && !fontError) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <ActivityIndicator size="large" />
       </View>
     );
+  }
+
+  if (fontError) {
+    console.warn('Erreur lors du chargement des polices:', fontError);
   }
 
   return (

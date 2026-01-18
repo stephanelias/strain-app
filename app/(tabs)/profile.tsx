@@ -1,31 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
+import { commonStyles } from '../../styles/commonStyles';
 
 export default function ProfileScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Profil</Text>
-      <Text style={styles.text}>Votre profil et paramètres</Text>
+    <View style={commonStyles.container}>
+      <Text style={commonStyles.title}>Profil</Text>
+      <Text style={commonStyles.text}>Votre profil et paramètres</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
-  },
-  title: {
-    fontSize: 32,
-    fontFamily: 'Poppins_700Bold',
-    marginBottom: 10,
-    color: '#000',
-  },
-  text: {
-    fontSize: 16,
-    fontFamily: 'Poppins_400Regular',
-    color: '#666',
-  },
-});
